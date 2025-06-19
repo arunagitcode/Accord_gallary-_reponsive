@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flying Gallery</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+   
+    
+   
+  
+  </style>
+</head>
+<body style="background: linear-gradient(to right, #dceefc, #fefefe);">
+<nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
+    <div class="container">
+      <a class="navbar-brand text-info fs-2 fw-bold" href="#">ACCORD</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../asserts/index.html">Landing Page</a></li>
+          <li class="nav-item"><a class="nav-link" href="../asserts/home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="../asserts/about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="../asserts/gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="../asserts/contact.html">Contact</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Animals</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../asserts/land.html">Land Animals</a></li>
+               <li><a class="dropdown-item" href="../asserts/marine.html">Marine</a></li>
+              <li><a class="dropdown-item" href="../asserts/fly.html">Flying</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container text-center">
+    <div class="section-header my-5" data-aos="zoom-in">
+      <h1 class="gallery-title">Flying Gallery</h1>
+      <p class="lead">Explore the beauty of creatures in the sky</p>
+    </div>
+
+    <div class="row g-4 my-5">
+      <div class="col-lg-4 col-md-6" data-aos="fade-right">
+        <div class="card fly-card">
+          <img src="../images/eagle.jpg" alt="Eagle" class="gallery-img">
+          <div class="card-body text-center">
+            <h5 class="card-title">Eagle</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up">
+        <div class="card fly-card">
+          <img src="../images/parr.jpg" alt="Parrot" class="gallery-img">
+          <div class="card-body text-center">
+            <h5 class="card-title">Parrot</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-left">
+        <div class="card fly-card">
+          <img src="../images/owl_1.jpg" alt="Owl" class="gallery-img">
+          <div class="card-body text-center">
+            <h5 class="card-title">Owl</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="flip-left">
+        <div class="card fly-card">
+          <img src="../images/swan.jpg" alt="Swan" class="gallery-img">
+          <div class="card-body text-center">
+            <h5 class="card-title">Swan</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+        <div class="card fly-card">
+          <img src="../images/flamingo_1.jpg" alt="Flamingo" class="gallery-img">
+          <div class="card-body text-center">
+            <h5 class="card-title">Flamingo</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="flip-up">
+        <div class="card fly-card">
+          <img src="../images/bat.jpg" alt="Bat" class="gallery-img">
+          <div class="card-body text-center">
+            <h5 class="card-title">Bat</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AOS & Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>
